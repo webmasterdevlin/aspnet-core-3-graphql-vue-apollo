@@ -1,0 +1,126 @@
+﻿<Project Sdk="Microsoft.NET.Sdk.Web">
+
+  <PropertyGroup>
+    <TargetFramework>netcoreapp3.0</TargetFramework>
+    <TypeScriptCompileBlocked>true</TypeScriptCompileBlocked>
+    <TypeScriptToolsVersion>Latest</TypeScriptToolsVersion>
+    <IsPackable>false</IsPackable>
+    <SpaRoot>ClientApp\</SpaRoot>
+    <DefaultItemExcludes>$(DefaultItemExcludes);$(SpaRoot)node_modules\**</DefaultItemExcludes>
+    <Authors>Software Ateliers</Authors>
+    <Company>Software Ateliers</Company>
+    <Description>ASP.NET Core + Vue.js starter project</Description>
+    <Copyright>MIT 2019 Software Ateliers</Copyright>
+    <AssemblyName>AspNetCoreVueStarter</AssemblyName>
+    <RootNamespace>AspNetCoreVueStarter</RootNamespace>
+    <Version>1.1.0</Version>
+    <AssemblyVersion>1.1.0.0</AssemblyVersion>
+    <FileVersion>1.1.0.0</FileVersion>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="GraphQL" Version="2.4.0" />
+    <PackageReference Include="GraphQL.Server.Transports.AspNetCore" Version="3.4.0" />
+    <PackageReference Include="GraphQL.Server.Ui.Playground" Version="3.4.0" />
+    <PackageReference Include="Microsoft.AspNetCore.SpaServices.Extensions" Version="3.0.0" />
+    <PackageReference Include="Microsoft.EntityFrameworkCore" Version="3.0.0" />
+    <PackageReference Include="Microsoft.EntityFrameworkCore.Design" Version="3.0.0">
+      <IncludeAssets>runtime; build; native; contentfiles; analyzers; buildtransitive</IncludeAssets>
+      <PrivateAssets>all</PrivateAssets>
+    </PackageReference>
+    <PackageReference Include="Npgsql.EntityFrameworkCore.PostgreSQL" Version="3.0.1" />
+    <PackageReference Include="VueCliMiddleware" Version="3.0.0" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <!-- Don't publish the SPA source files, but do show them in the project files list -->
+    <Content Remove="$(SpaRoot)**" />
+    <None Include="$(SpaRoot)**" Exclude="$(SpaRoot)node_modules\**" />
+    <Content Remove="CoreClient\bin\Debug\netcoreapp3.0\appsettings.Development.json" />
+    <Content Remove="CoreClient\bin\Debug\netcoreapp3.0\Properties\launchSettings.json" />
+    <Content Remove="CoreClient\bin\Debug\netcoreapp3.0\CoreClient.deps.json" />
+    <Content Remove="CoreClient\bin\Debug\netcoreapp3.0\CoreClient.runtimeconfig.json" />
+    <Content Remove="CoreClient\appsettings.Development.json" />
+    <Content Remove="CoreClient\appsettings.json" />
+    <Content Remove="CoreClient\obj\project.packagespec.json" />
+    <Content Remove="CoreClient\obj\project.assets.json" />
+    <Content Remove="CoreClient\obj\CoreClient.csproj.nuget.dgspec.json" />
+    <Content Remove="CoreClient\Properties\launchSettings.json" />
+    <Content Remove="CoreClient\bin\Debug\netcoreapp3.0\appsettings.Development.json" />
+    <Content Remove="CoreClient\bin\Debug\netcoreapp3.0\Properties\launchSettings.json" />
+    <Content Remove="CoreClient\bin\Debug\netcoreapp3.0\CoreClient.deps.json" />
+    <Content Remove="CoreClient\bin\Debug\netcoreapp3.0\CoreClient.runtimeconfig.json" />
+    <Content Remove="CoreClient\bin\Debug\netcoreapp3.0\appsettings.json" />
+    <Content Remove="CoreClient\bin\Debug\netcoreapp3.0\CoreClient.runtimeconfig.dev.json" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Content Include="ClientApp\tsconfig.json" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <None Remove="CoreClient\obj\CoreClient.csproj.nuget.g.props" />
+    <None Remove="CoreClient\obj\CoreClient.csproj.nuget.cache" />
+    <None Remove="CoreClient\obj\CoreClient.csproj.nuget.g.targets" />
+    <None Remove="CoreClient\obj\Debug\netcoreapp3.0\CoreClient.assets.cache" />
+    <None Remove="CoreClient\obj\Debug\netcoreapp3.0\CoreClient.csprojAssemblyReference.cache" />
+    <None Remove="CoreClient\obj\Debug\netcoreapp3.0\CoreClient.AssemblyInfoInputs.cache" />
+    <None Remove="CoreClient\obj\Debug\netcoreapp3.0\CoreClient.MvcApplicationPartsAssemblyInfo.cache" />
+    <None Remove="CoreClient\obj\Debug\netcoreapp3.0\staticwebassets\CoreClient.StaticWebAssets.Manifest.cache" />
+    <None Remove="CoreClient\obj\Debug\netcoreapp3.0\staticwebassets\CoreClient.StaticWebAssets.xml" />
+    <None Remove="CoreClient\obj\Debug\netcoreapp3.0\CoreClient.pdb" />
+    <None Remove="CoreClient\obj\Debug\netcoreapp3.0\CoreClient.dll" />
+    <None Remove="CoreClient\obj\Debug\netcoreapp3.0\CoreClient" />
+    <None Remove="CoreClient\bin\Debug\netcoreapp3.0\Newtonsoft.Json.dll" />
+    <None Remove="CoreClient\bin\Debug\netcoreapp3.0\GraphQL.Common.dll" />
+    <None Remove="CoreClient\bin\Debug\netcoreapp3.0\GraphQL.Client.dll" />
+    <None Remove="CoreClient\obj\Debug\netcoreapp3.0\CoreClient.csproj.CopyComplete" />
+    <None Remove="CoreClient\bin\Debug\netcoreapp3.0\CoreClient.dll" />
+    <None Remove="CoreClient\obj\Debug\netcoreapp3.0\CoreClient.RazorTargetAssemblyInfo.cache" />
+    <None Remove="CoreClient\bin\Debug\netcoreapp3.0\CoreClient" />
+    <None Remove="CoreClient\obj\Debug\netcoreapp3.0\CoreClient.csproj.FileListAbsolute.txt" />
+    <None Remove="CoreClient\bin\Debug\netcoreapp3.0\CoreClient.pdb" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="README.md" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Compile Remove="CoreClient\WeatherForecast.cs" />
+    <Compile Remove="CoreClient\Startup.cs" />
+    <Compile Remove="CoreClient\Program.cs" />
+    <Compile Remove="CoreClient\obj\Debug\netcoreapp3.0\CoreClient.AssemblyInfo.cs" />
+    <Compile Remove="CoreClient\Models\Owner.cs" />
+    <Compile Remove="CoreClient\Models\TypeOfAccount.cs" />
+    <Compile Remove="CoreClient\Models\Account.cs" />
+    <Compile Remove="CoreClient\Controllers\WeatherForecastController.cs" />
+    <Compile Remove="CoreClient\GraphQLQueries\OwnerInput.cs" />
+    <Compile Remove="CoreClient\GraphQLClient\OwnerConsumer.cs" />
+    <Compile Remove="CoreClient\Controllers\TestsController.cs" />
+  </ItemGroup>
+  <Target Name="DebugEnsureNodeEnv" BeforeTargets="Build" Condition=" '$(Configuration)' == 'Debug' And !Exists('$(SpaRoot)node_modules') ">
+    <!-- Ensure Node.js is installed -->
+    <Exec Command="node --version" ContinueOnError="true">
+      <Output TaskParameter="ExitCode" PropertyName="ErrorCode" />
+    </Exec>
+    <Error Condition="'$(ErrorCode)' != '0'" Text="Node.js is required to build and run this project. To continue, please install Node.js from https://nodejs.org/, and then restart your command prompt or IDE." />
+    <Message Importance="high" Text="Restoring dependencies using 'npm'. This may take several minutes..." />
+    <Exec WorkingDirectory="$(SpaRoot)" Command="npm install" />
+  </Target>
+
+  <Target Name="PublishRunWebpack" AfterTargets="ComputeFilesToPublish">
+    <!-- As part of publishing, ensure the JS resources are freshly built in production mode -->
+    <Exec WorkingDirectory="$(SpaRoot)" Command="npm install" />
+    <Exec WorkingDirectory="$(SpaRoot)" Command="npm run build" />
+
+    <!-- Include the newly-built files in the publish output -->
+    <ItemGroup>
+      <DistFiles Include="$(SpaRoot)dist\**" />
+      <ResolvedFileToPublish Include="@(DistFiles-&gt;'%(FullPath)')" Exclude="@(ResolvedFileToPublish)">
+        <RelativePath>%(DistFiles.Identity)</RelativePath>
+        <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+      </ResolvedFileToPublish>
+    </ItemGroup>
+  </Target>
+
+</Project>
