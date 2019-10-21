@@ -1,0 +1,221 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ContentModelStore">
+    <e p="$PROJECT_DIR$" t="IncludeRecursive">
+      <e p=".gitattributes" t="Include" />
+      <e p=".gitignore" t="Include" />
+      <e p="appsettings.Development.json" t="Include" />
+      <e p="appsettings.json" t="Include" />
+      <e p="AspNetCoreVueStarter.csproj" t="IncludeRecursive" />
+      <e p="bin" t="ExcludeRecursive" />
+      <e p="ClientApp" t="Include">
+        <e p=".browserslistrc" t="Include" />
+        <e p=".gitignore" t="Include" />
+        <e p=".idea" t="Include">
+          <e p="$CACHE_FILE$" t="Include" />
+          <e p="$PRODUCT_WORKSPACE_FILE$" t="Include" />
+          <e p="ClientApp.iml" t="Include" />
+          <e p="codeStyles" t="Include">
+            <e p="codeStyleConfig.xml" t="Include" />
+            <e p="Project.xml" t="Include" />
+          </e>
+          <e p="inspectionProfiles" t="Include">
+            <e p="Project_Default.xml" t="Include" />
+          </e>
+          <e p="misc.xml" t="Include" />
+          <e p="modules.xml" t="Include" />
+          <e p="workspace.xml" t="Include" />
+        </e>
+        <e p="babel.config.js" t="Include" />
+        <e p="node_modules/@babel/polyfill" t="IncludeRecursive" />
+        <e p="node_modules/@mdi/font" t="IncludeRecursive" />
+        <e p="node_modules/@types" t="IncludeRecursive">
+          <e p="events" t="IncludeRecursive" />
+          <e p="minimatch" t="IncludeRecursive" />
+          <e p="node" t="IncludeRecursive" />
+        </e>
+        <e p="node_modules/@vue/cli-plugin-babel" t="IncludeRecursive" />
+        <e p="node_modules/@vue/cli-plugin-pwa" t="IncludeRecursive" />
+        <e p="node_modules/@vue/cli-plugin-typescript" t="IncludeRecursive" />
+        <e p="node_modules/@vue/cli-service" t="IncludeRecursive" />
+        <e p="node_modules/@vue/component-compiler-utils" t="IncludeRecursive" />
+        <e p="node_modules/address" t="IncludeRecursive" />
+        <e p="node_modules/axios" t="IncludeRecursive" />
+        <e p="node_modules/babel-plugin-transform-imports" t="IncludeRecursive" />
+        <e p="node_modules/chalk" t="IncludeRecursive" />
+        <e p="node_modules/chokidar" t="IncludeRecursive" />
+        <e p="node_modules/cli-highlight" t="IncludeRecursive" />
+        <e p="node_modules/commander" t="IncludeRecursive" />
+        <e p="node_modules/date-fns" t="IncludeRecursive" />
+        <e p="node_modules/dotenv-expand" t="IncludeRecursive" />
+        <e p="node_modules/fork-ts-checker-webpack-plugin" t="IncludeRecursive" />
+        <e p="node_modules/javascript-stringify" t="IncludeRecursive" />
+        <e p="node_modules/portfinder" t="IncludeRecursive" />
+        <e p="node_modules/postcss" t="IncludeRecursive" />
+        <e p="node_modules/postcss-selector-parser" t="IncludeRecursive" />
+        <e p="node_modules/register-service-worker" t="IncludeRecursive" />
+        <e p="node_modules/sass" t="IncludeRecursive" />
+        <e p="node_modules/sass-loader" t="IncludeRecursive" />
+        <e p="node_modules/source-map" t="IncludeRecursive" />
+        <e p="node_modules/terser" t="IncludeRecursive" />
+        <e p="node_modules/ts-loader" t="IncludeRecursive" />
+        <e p="node_modules/tslib" t="IncludeRecursive" />
+        <e p="node_modules/tslint" t="IncludeRecursive" />
+        <e p="node_modules/upath" t="IncludeRecursive" />
+        <e p="node_modules/vue" t="IncludeRecursive" />
+        <e p="node_modules/vue-class-component" t="IncludeRecursive" />
+        <e p="node_modules/vue-cli-plugin-axios" t="IncludeRecursive" />
+        <e p="node_modules/vue-cli-plugin-vuetify" t="IncludeRecursive" />
+        <e p="node_modules/vue-loader" t="IncludeRecursive" />
+        <e p="node_modules/vue-property-decorator" t="IncludeRecursive" />
+        <e p="node_modules/vue-router" t="IncludeRecursive" />
+        <e p="node_modules/vue-template-compiler" t="IncludeRecursive" />
+        <e p="node_modules/vuetify" t="IncludeRecursive" />
+        <e p="node_modules/vuetify-loader" t="IncludeRecursive" />
+        <e p="node_modules/vuex" t="IncludeRecursive" />
+        <e p="node_modules/vuex-class" t="IncludeRecursive" />
+        <e p="package-lock.json" t="Include" />
+        <e p="package.json" t="Include" />
+        <e p="postcss.config.js" t="Include" />
+        <e p="public" t="Include">
+          <e p="favicon.ico" t="Include" />
+          <e p="img" t="Include">
+            <e p="icons" t="Include">
+              <e p="android-chrome-192x192.png" t="Include" />
+              <e p="android-chrome-512x512.png" t="Include" />
+              <e p="apple-touch-icon-120x120.png" t="Include" />
+              <e p="apple-touch-icon-152x152.png" t="Include" />
+              <e p="apple-touch-icon-180x180.png" t="Include" />
+              <e p="apple-touch-icon-60x60.png" t="Include" />
+              <e p="apple-touch-icon-76x76.png" t="Include" />
+              <e p="apple-touch-icon.png" t="Include" />
+              <e p="favicon-16x16.png" t="Include" />
+              <e p="favicon-32x32.png" t="Include" />
+              <e p="msapplication-icon-144x144.png" t="Include" />
+              <e p="mstile-150x150.png" t="Include" />
+              <e p="safari-pinned-tab.svg" t="Include" />
+            </e>
+          </e>
+          <e p="index.html" t="Include" />
+          <e p="manifest.json" t="Include" />
+          <e p="robots.txt" t="Include" />
+        </e>
+        <e p="README.md" t="Include" />
+        <e p="src" t="Include">
+          <e p="App.vue" t="Include" />
+          <e p="assets" t="Include">
+            <e p="logo.png" t="Include" />
+          </e>
+          <e p="components" t="Include">
+            <e p="Counter.vue" t="Include" />
+            <e p="HelloWorld.vue" t="Include" />
+          </e>
+          <e p="filters" t="Include">
+            <e p="date.filter.ts" t="Include" />
+          </e>
+          <e p="main.ts" t="Include" />
+          <e p="Models" t="Include">
+            <e p="Forecast.ts" t="Include" />
+          </e>
+          <e p="plugins" t="Include">
+            <e p="axios.js" t="Include" />
+            <e p="vuetify.ts" t="Include" />
+          </e>
+          <e p="registerServiceWorker.ts" t="Include" />
+          <e p="router.ts" t="Include" />
+          <e p="shims-tsx.d.ts" t="Include" />
+          <e p="shims-vue.d.ts" t="Include" />
+          <e p="store" t="Include">
+            <e p="counter" t="Include">
+              <e p="actions.ts" t="Include" />
+              <e p="getters.ts" t="Include" />
+              <e p="index.ts" t="Include" />
+              <e p="mutations.ts" t="Include" />
+              <e p="types.ts" t="Include" />
+            </e>
+            <e p="index.ts" t="Include" />
+            <e p="types.ts" t="Include" />
+          </e>
+          <e p="views" t="Include">
+            <e p="Counter.vue" t="Include" />
+            <e p="FetchData.vue" t="Include" />
+            <e p="Home.vue" t="Include" />
+          </e>
+        </e>
+        <e p="tsconfig.json" t="Include" />
+        <e p="tslint.json" t="Include" />
+      </e>
+      <e p="Contracts" t="Include">
+        <e p="IAccountRepository.cs" t="Include" />
+        <e p="IOwnerRepository.cs" t="Include" />
+      </e>
+      <e p="Controllers" t="Include">
+        <e p="WeatherForecastController.cs" t="Include" />
+      </e>
+      <e p="Entities" t="Include">
+        <e p="Account.cs" t="Include" />
+        <e p="Context" t="Include">
+          <e p="AccountContextConfiguration.cs" t="Include" />
+          <e p="ApplicationContext.cs" t="Include" />
+          <e p="OwnerContextConfiguration.cs" t="Include" />
+        </e>
+        <e p="Owner.cs" t="Include" />
+        <e p="TypeOfAccount.cs" t="Include" />
+      </e>
+      <e p="GraphQL" t="Include">
+        <e p="GraphQLQueries" t="Include">
+          <e p="AppMutation.cs" t="Include" />
+          <e p="AppQuery.cs" t="Include" />
+        </e>
+        <e p="GraphQLSchema" t="Include">
+          <e p="AppSchema.cs" t="Include" />
+        </e>
+        <e p="GraphQLTypes" t="Include">
+          <e p="AccountType.cs" t="Include" />
+          <e p="AccountTypeEnumType.cs" t="Include" />
+          <e p="OwnerInputType.cs" t="Include" />
+          <e p="OwnerType.cs" t="Include" />
+        </e>
+      </e>
+      <e p="Migrations" t="Include">
+        <e p="20191020113434_InitialCreate.cs" t="Include" />
+        <e p="20191020113434_InitialCreate.Designer.cs" t="Include" />
+        <e p="ApplicationContextModelSnapshot.cs" t="Include" />
+      </e>
+      <e p="Models" t="Include">
+        <e p="WeatherForecast.cs" t="Include" />
+      </e>
+      <e p="obj" t="ExcludeRecursive">
+        <e p="Debug" t="Include">
+          <e p="netcoreapp3.0" t="Include">
+            <e p="AspNetCoreVueStarter.AssemblyInfo.cs" t="Include" />
+          </e>
+        </e>
+      </e>
+      <e p="packages" t="ExcludeRecursive" />
+      <e p="Pages" t="Include">
+        <e p="_ViewImports.cshtml" t="Include" />
+        <e p="Error.cshtml" t="Include" />
+        <e p="Error.cshtml.cs" t="Include" />
+      </e>
+      <e p="Program.cs" t="Include" />
+      <e p="Properties" t="Include">
+        <e p="launchSettings.json" t="Include" />
+      </e>
+      <e p="README.md" t="Include" />
+      <e p="Repository" t="Include">
+        <e p="AccountRepository.cs" t="Include" />
+        <e p="OwnerRepository.cs" t="Include" />
+      </e>
+      <e p="SampleQueries.md" t="Include" />
+      <e p="screenshot.png" t="Include" />
+      <e p="SoftwareAteliers.AspNetCoreVueStarter.nuspec" t="Include" />
+      <e p="Startup.cs" t="Include" />
+      <e p="tslint.json" t="Include" />
+    </e>
+    <e p="$USER_HOME$/Library/Caches/Rider2019.2/extResources" t="IncludeRecursive" />
+    <e p="$USER_HOME$/Library/Caches/Rider2019.2/resharper-host/local/Transient/ReSharperHost/v192/SolutionCaches/_.19.00" t="ExcludeRecursive" />
+    <e p="$APPLICATION_CONFIG_DIR$/consoles/db" t="IncludeRecursive" />
+    <e p="$APPLICATION_CONFIG_DIR$/extensions" t="IncludeRecursive" />
+  </component>
+</project>
