@@ -1,0 +1,3 @@
+mutation($ownerId: ID!) {
+  deleteOwner(ownerId: $ownerId)
+}

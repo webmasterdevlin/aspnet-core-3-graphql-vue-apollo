@@ -114,7 +114,7 @@ query ownerQuery($ownerID: ID!, $showName: Boolean!){
 }
 ```
 
-mutation create request
+##### mutation create request
 ```
  mutation($owner: ownerInput!) {
         createOwner(owner: $owner) {
@@ -131,7 +131,7 @@ mutation create request
     }
 }
 ```
-mutation create request
+##### mutation delete request
 ```
 mutation($ownerId: ID!) {
     deleteOwner(ownerId: $ownerId)
@@ -139,5 +139,23 @@ mutation($ownerId: ID!) {
 // in the query variables
 {
     "ownerId":"21432e2ed32d23"
+}
+```
+##### mutation update request
+```
+mutation($owner: ownerInput!, $ownerId: ID!){
+  updateOwner(owner: $owner, ownerId: $ownerId){
+        id,
+        name,
+        address
+    }
+}
+// in the query variables
+{
+    "owner": {
+        "name": "edited name",
+        "address": "edited address"
+        },
+    "ownerId":"124ew9h2308h328"
 }
 ```

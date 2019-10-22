@@ -17,9 +17,9 @@ namespace AspNetCoreVueStarter.GraphQL.GraphQLTypes
             Field<ListGraphType<AccountType>>("accounts",
                 resolve: context =>
                 {
-                    IDataLoader<Guid, IEnumerable<Account>> loader =
-                        dataLoader.Context.GetOrAddCollectionBatchLoader<Guid, Account>("GetAccountsByOwnerIds",
-                            repository.GetAccountByOwnerIds);
+                    var key = "GetAccountsByOwnerIds";
+                    IDataLoader<Guid, IEnumerable<Account>> loader = dataLoader.Context.GetOrAddCollectionBatchLoader<Guid, Account>(key, repository.GetAccountByOwnerIds);
+                    
                     return loader.LoadAsync(context.Source.Id);
                 });
         }

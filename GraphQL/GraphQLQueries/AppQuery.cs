@@ -16,13 +16,11 @@ namespace AspNetCoreVueStarter.GraphQL.GraphQLQueries
                 arguments: new QueryArguments(new QueryArgument<NonNullGraphType<IdGraphType>> {Name = "ownerId"}),
                 resolve: context =>
                 {
-                    if (!Guid.TryParse(context.GetArgument<string>("ownerId"), out Guid id))
-                    {
-                        context.Errors.Add(new ExecutionError("Wrong value for guid"));
-                        return null;
-                    }
-
-                    return repository.GetById(id);
+                    if (Guid.TryParse(context.GetArgument<string>("ownerId"), out Guid id))
+                        return repository.GetById(id);
+                    
+                    context.Errors.Add(new ExecutionError("Wrong value for guid"));
+                    return null;
                 });
         }
     }

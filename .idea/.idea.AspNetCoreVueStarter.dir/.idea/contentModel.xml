@@ -19,51 +19,173 @@
             <e p="codeStyleConfig.xml" t="Include" />
             <e p="Project.xml" t="Include" />
           </e>
-          <e p="inspectionProfiles" t="Include">
-            <e p="Project_Default.xml" t="Include" />
-          </e>
           <e p="misc.xml" t="Include" />
           <e p="modules.xml" t="Include" />
+          <e p="vcs.xml" t="Include" />
+          <e p="watcherTasks.xml" t="Include" />
           <e p="workspace.xml" t="Include" />
         </e>
         <e p="babel.config.js" t="Include" />
+        <e p="node_modules/@apollo/federation" t="IncludeRecursive" />
+        <e p="node_modules/@apollographql/apollo-tools" t="IncludeRecursive" />
+        <e p="node_modules/@apollographql/graphql-playground-html" t="IncludeRecursive" />
+        <e p="node_modules/@babel/parser" t="IncludeRecursive" />
         <e p="node_modules/@babel/polyfill" t="IncludeRecursive" />
+        <e p="node_modules/@babel/types" t="IncludeRecursive" />
+        <e p="node_modules/@endemolshinegroup/cosmiconfig-typescript-loader" t="IncludeRecursive" />
         <e p="node_modules/@mdi/font" t="IncludeRecursive" />
+        <e p="node_modules/@oclif/color" t="IncludeRecursive" />
+        <e p="node_modules/@oclif/command" t="IncludeRecursive" />
+        <e p="node_modules/@oclif/config" t="IncludeRecursive" />
+        <e p="node_modules/@oclif/errors" t="IncludeRecursive" />
+        <e p="node_modules/@oclif/parser" t="IncludeRecursive" />
+        <e p="node_modules/@oclif/plugin-help" t="IncludeRecursive" />
+        <e p="node_modules/@oclif/plugin-not-found" t="IncludeRecursive" />
+        <e p="node_modules/@oclif/plugin-plugins" t="IncludeRecursive" />
+        <e p="node_modules/@oclif/screen" t="IncludeRecursive" />
+        <e p="node_modules/@protobufjs/aspromise" t="IncludeRecursive" />
+        <e p="node_modules/@protobufjs/base64" t="IncludeRecursive" />
+        <e p="node_modules/@protobufjs/codegen" t="IncludeRecursive" />
+        <e p="node_modules/@protobufjs/eventemitter" t="IncludeRecursive" />
+        <e p="node_modules/@protobufjs/fetch" t="IncludeRecursive" />
+        <e p="node_modules/@protobufjs/float" t="IncludeRecursive" />
+        <e p="node_modules/@protobufjs/inquire" t="IncludeRecursive" />
+        <e p="node_modules/@protobufjs/path" t="IncludeRecursive" />
+        <e p="node_modules/@protobufjs/pool" t="IncludeRecursive" />
+        <e p="node_modules/@protobufjs/utf8" t="IncludeRecursive" />
         <e p="node_modules/@types" t="IncludeRecursive">
+          <e p="accepts" t="IncludeRecursive" />
+          <e p="body-parser" t="IncludeRecursive" />
+          <e p="connect" t="IncludeRecursive" />
+          <e p="cookies" t="IncludeRecursive" />
           <e p="events" t="IncludeRecursive" />
+          <e p="express" t="IncludeRecursive" />
+          <e p="express-serve-static-core" t="IncludeRecursive" />
+          <e p="fs-capacitor" t="IncludeRecursive" />
+          <e p="http-assert" t="IncludeRecursive" />
+          <e p="keygrip" t="IncludeRecursive" />
+          <e p="koa" t="IncludeRecursive" />
+          <e p="koa-compose" t="IncludeRecursive" />
+          <e p="mime" t="IncludeRecursive" />
           <e p="minimatch" t="IncludeRecursive" />
           <e p="node" t="IncludeRecursive" />
+          <e p="range-parser" t="IncludeRecursive" />
+          <e p="serve-static" t="IncludeRecursive" />
         </e>
         <e p="node_modules/@vue/cli-plugin-babel" t="IncludeRecursive" />
         <e p="node_modules/@vue/cli-plugin-pwa" t="IncludeRecursive" />
         <e p="node_modules/@vue/cli-plugin-typescript" t="IncludeRecursive" />
         <e p="node_modules/@vue/cli-service" t="IncludeRecursive" />
         <e p="node_modules/@vue/component-compiler-utils" t="IncludeRecursive" />
+        <e p="node_modules/@wry/Context" t="IncludeRecursive" />
+        <e p="node_modules/@wry/equality" t="IncludeRecursive" />
         <e p="node_modules/address" t="IncludeRecursive" />
+        <e p="node_modules/apollo" t="IncludeRecursive" />
+        <e p="node_modules/apollo-boost" t="IncludeRecursive" />
+        <e p="node_modules/apollo-cache" t="IncludeRecursive" />
+        <e p="node_modules/apollo-cache-control" t="IncludeRecursive" />
+        <e p="node_modules/apollo-cache-inmemory" t="IncludeRecursive" />
+        <e p="node_modules/apollo-client" t="IncludeRecursive" />
+        <e p="node_modules/apollo-codegen-core" t="IncludeRecursive" />
+        <e p="node_modules/apollo-codegen-flow" t="IncludeRecursive" />
+        <e p="node_modules/apollo-codegen-scala" t="IncludeRecursive" />
+        <e p="node_modules/apollo-codegen-swift" t="IncludeRecursive" />
+        <e p="node_modules/apollo-codegen-typescript" t="IncludeRecursive" />
+        <e p="node_modules/apollo-datasource" t="IncludeRecursive" />
+        <e p="node_modules/apollo-engine-reporting" t="IncludeRecursive" />
+        <e p="node_modules/apollo-engine-reporting-protobuf" t="IncludeRecursive" />
+        <e p="node_modules/apollo-env" t="IncludeRecursive" />
+        <e p="node_modules/apollo-graphql" t="IncludeRecursive" />
+        <e p="node_modules/apollo-language-server" t="IncludeRecursive" />
+        <e p="node_modules/apollo-link" t="IncludeRecursive" />
+        <e p="node_modules/apollo-link-context" t="IncludeRecursive" />
+        <e p="node_modules/apollo-link-error" t="IncludeRecursive" />
+        <e p="node_modules/apollo-link-http" t="IncludeRecursive" />
+        <e p="node_modules/apollo-link-http-common" t="IncludeRecursive" />
+        <e p="node_modules/apollo-link-persisted-queries" t="IncludeRecursive" />
+        <e p="node_modules/apollo-link-state" t="IncludeRecursive" />
+        <e p="node_modules/apollo-link-ws" t="IncludeRecursive" />
+        <e p="node_modules/apollo-server-caching" t="IncludeRecursive" />
+        <e p="node_modules/apollo-server-core" t="IncludeRecursive" />
+        <e p="node_modules/apollo-server-env" t="IncludeRecursive" />
+        <e p="node_modules/apollo-server-errors" t="IncludeRecursive" />
+        <e p="node_modules/apollo-server-express" t="IncludeRecursive" />
+        <e p="node_modules/apollo-server-plugin-base" t="IncludeRecursive" />
+        <e p="node_modules/apollo-server-types" t="IncludeRecursive" />
+        <e p="node_modules/apollo-tracing" t="IncludeRecursive" />
+        <e p="node_modules/apollo-utilities" t="IncludeRecursive" />
+        <e p="node_modules/arg" t="IncludeRecursive" />
+        <e p="node_modules/ast-types" t="IncludeRecursive" />
+        <e p="node_modules/await-to-js" t="IncludeRecursive" />
         <e p="node_modules/axios" t="IncludeRecursive" />
         <e p="node_modules/babel-plugin-transform-imports" t="IncludeRecursive" />
+        <e p="node_modules/camel-case" t="IncludeRecursive" />
         <e p="node_modules/chalk" t="IncludeRecursive" />
+        <e p="node_modules/change-case" t="IncludeRecursive" />
         <e p="node_modules/chokidar" t="IncludeRecursive" />
         <e p="node_modules/cli-highlight" t="IncludeRecursive" />
+        <e p="node_modules/cli-ux" t="IncludeRecursive" />
         <e p="node_modules/commander" t="IncludeRecursive" />
+        <e p="node_modules/constant-case" t="IncludeRecursive" />
         <e p="node_modules/date-fns" t="IncludeRecursive" />
+        <e p="node_modules/deprecated-decorator" t="IncludeRecursive" />
+        <e p="node_modules/dot-case" t="IncludeRecursive" />
         <e p="node_modules/dotenv-expand" t="IncludeRecursive" />
+        <e p="node_modules/eventemitter3" t="IncludeRecursive" />
         <e p="node_modules/fork-ts-checker-webpack-plugin" t="IncludeRecursive" />
+        <e p="node_modules/GraphQL" t="IncludeRecursive" />
+        <e p="node_modules/graphql-anywhere" t="IncludeRecursive" />
+        <e p="node_modules/graphql-extensions" t="IncludeRecursive" />
+        <e p="node_modules/graphql-subscriptions" t="IncludeRecursive" />
+        <e p="node_modules/graphql-tools" t="IncludeRecursive" />
+        <e p="node_modules/hash.js" t="IncludeRecursive" />
+        <e p="node_modules/header-case" t="IncludeRecursive" />
+        <e p="node_modules/http-call" t="IncludeRecursive" />
+        <e p="node_modules/is-lower-case" t="IncludeRecursive" />
+        <e p="node_modules/is-upper-case" t="IncludeRecursive" />
+        <e p="node_modules/iterall" t="IncludeRecursive" />
         <e p="node_modules/javascript-stringify" t="IncludeRecursive" />
+        <e p="node_modules/lower-case" t="IncludeRecursive" />
+        <e p="node_modules/lower-case-first" t="IncludeRecursive" />
+        <e p="node_modules/moment" t="IncludeRecursive" />
+        <e p="node_modules/no-case" t="IncludeRecursive" />
+        <e p="node_modules/optimism" t="IncludeRecursive" />
+        <e p="node_modules/param-case" t="IncludeRecursive" />
+        <e p="node_modules/pascal-case" t="IncludeRecursive" />
+        <e p="node_modules/path-case" t="IncludeRecursive" />
         <e p="node_modules/portfinder" t="IncludeRecursive" />
         <e p="node_modules/postcss" t="IncludeRecursive" />
         <e p="node_modules/postcss-selector-parser" t="IncludeRecursive" />
+        <e p="node_modules/protobufjs" t="IncludeRecursive" />
+        <e p="node_modules/recast" t="IncludeRecursive" />
         <e p="node_modules/register-service-worker" t="IncludeRecursive" />
         <e p="node_modules/sass" t="IncludeRecursive" />
         <e p="node_modules/sass-loader" t="IncludeRecursive" />
+        <e p="node_modules/sentence-case" t="IncludeRecursive" />
+        <e p="node_modules/snake-case" t="IncludeRecursive" />
         <e p="node_modules/source-map" t="IncludeRecursive" />
+        <e p="node_modules/subscriptions-transport-ws" t="IncludeRecursive" />
+        <e p="node_modules/swap-case" t="IncludeRecursive" />
+        <e p="node_modules/symbol-observable" t="IncludeRecursive" />
         <e p="node_modules/terser" t="IncludeRecursive" />
+        <e p="node_modules/title-case" t="IncludeRecursive" />
+        <e p="node_modules/ts-invariant" t="IncludeRecursive" />
         <e p="node_modules/ts-loader" t="IncludeRecursive" />
+        <e p="node_modules/ts-node" t="IncludeRecursive" />
         <e p="node_modules/tslib" t="IncludeRecursive" />
         <e p="node_modules/tslint" t="IncludeRecursive" />
         <e p="node_modules/upath" t="IncludeRecursive" />
+        <e p="node_modules/upper-case" t="IncludeRecursive" />
+        <e p="node_modules/upper-case-first" t="IncludeRecursive" />
+        <e p="node_modules/vscode-jsonrpc" t="IncludeRecursive" />
+        <e p="node_modules/vscode-languageserver" t="IncludeRecursive" />
+        <e p="node_modules/vscode-languageserver-protocol" t="IncludeRecursive" />
+        <e p="node_modules/vscode-languageserver-types" t="IncludeRecursive" />
+        <e p="node_modules/vscode-uri" t="IncludeRecursive" />
         <e p="node_modules/vue" t="IncludeRecursive" />
+        <e p="node_modules/vue-apollo" t="IncludeRecursive" />
         <e p="node_modules/vue-class-component" t="IncludeRecursive" />
+        <e p="node_modules/vue-cli-plugin-apollo" t="IncludeRecursive" />
         <e p="node_modules/vue-cli-plugin-axios" t="IncludeRecursive" />
         <e p="node_modules/vue-cli-plugin-vuetify" t="IncludeRecursive" />
         <e p="node_modules/vue-loader" t="IncludeRecursive" />
@@ -74,6 +196,7 @@
         <e p="node_modules/vuetify-loader" t="IncludeRecursive" />
         <e p="node_modules/vuex" t="IncludeRecursive" />
         <e p="node_modules/vuex-class" t="IncludeRecursive" />
+        <e p="node_modules/zen-observable-ts" t="IncludeRecursive" />
         <e p="package-lock.json" t="Include" />
         <e p="package.json" t="Include" />
         <e p="postcss.config.js" t="Include" />
@@ -106,17 +229,22 @@
           <e p="assets" t="Include">
             <e p="logo.png" t="Include" />
           </e>
-          <e p="components" t="Include">
-            <e p="Counter.vue" t="Include" />
-            <e p="HelloWorld.vue" t="Include" />
-          </e>
+          <e p="components" t="Include" />
           <e p="filters" t="Include">
             <e p="date.filter.ts" t="Include" />
           </e>
-          <e p="main.ts" t="Include" />
-          <e p="Models" t="Include">
-            <e p="Forecast.ts" t="Include" />
+          <e p="GraphQL" t="Include">
+            <e p="mutations" t="Include">
+              <e p="deleteOwner.gql" t="Include" />
+              <e p="updateOwner.gql" t="Include" />
+            </e>
+            <e p="queries" t="Include">
+              <e p="allOwners.gql" t="Include" />
+              <e p="ownerById.gql" t="Include" />
+            </e>
           </e>
+          <e p="main.ts" t="Include" />
+          <e p="Models" t="Include" />
           <e p="plugins" t="Include">
             <e p="axios.js" t="Include" />
             <e p="vuetify.ts" t="Include" />
@@ -125,20 +253,7 @@
           <e p="router.ts" t="Include" />
           <e p="shims-tsx.d.ts" t="Include" />
           <e p="shims-vue.d.ts" t="Include" />
-          <e p="store" t="Include">
-            <e p="counter" t="Include">
-              <e p="actions.ts" t="Include" />
-              <e p="getters.ts" t="Include" />
-              <e p="index.ts" t="Include" />
-              <e p="mutations.ts" t="Include" />
-              <e p="types.ts" t="Include" />
-            </e>
-            <e p="index.ts" t="Include" />
-            <e p="types.ts" t="Include" />
-          </e>
           <e p="views" t="Include">
-            <e p="Counter.vue" t="Include" />
-            <e p="FetchData.vue" t="Include" />
             <e p="Home.vue" t="Include" />
           </e>
         </e>

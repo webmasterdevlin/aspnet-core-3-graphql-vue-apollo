@@ -1,0 +1,5 @@
+query ownerById($ownerID: ID!) {
+  owner(ownerId: $ownerID) {
+    address
+  }
+}

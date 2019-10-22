@@ -10,5 +10,6 @@ namespace AspNetCoreVueStarter.Contracts
         Owner GetById(Guid id);
         Owner CreateOwner(Owner owner);
         void DeleteOwner(Owner owner);
+        Owner UpdateOwner(Owner dbOwner, Owner owner);
     }
 }

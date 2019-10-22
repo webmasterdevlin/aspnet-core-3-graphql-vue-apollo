@@ -39,6 +39,25 @@ namespace AspNetCoreVueStarter.GraphQL.GraphQLQueries
                     return $"The owner with the id: {ownerId} has been deleted";
                 }
             );
+
+            Field<OwnerType>(
+                "updateOwner",
+                arguments: new QueryArguments(
+                    new QueryArgument<NonNullGraphType<OwnerInputType>> {Name = "owner"},
+                    new QueryArgument<NonNullGraphType<IdGraphType>> {Name = "ownerId"}
+                ),
+                resolve: context =>
+                {
+                    var owner = context.GetArgument<Owner>("owner");
+                    var ownerId = context.GetArgument<Guid>("ownerId");
+                    var dbOwner = repository.GetById(ownerId);
+                    
+                    if (dbOwner != null) return repository.UpdateOwner(dbOwner, owner);
+                    
+                    context.Errors.Add(new ExecutionError("Couldn't find owner in db."));
+                    return null;
+                }
+            );
         }
     }
 }

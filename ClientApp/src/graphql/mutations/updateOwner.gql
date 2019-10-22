@@ -1,0 +1,7 @@
+mutation updateOwner($owner: ownerInput!, $ownerId: ID!) {
+  updateOwner(owner: $owner, ownerId: $ownerId) {
+    id
+    name
+    address
+  }
+}
