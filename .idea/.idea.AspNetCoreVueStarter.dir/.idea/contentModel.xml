@@ -229,7 +229,6 @@
           <e p="assets" t="Include">
             <e p="logo.png" t="Include" />
           </e>
-          <e p="components" t="Include" />
           <e p="filters" t="Include">
             <e p="date.filter.ts" t="Include" />
           </e>
@@ -244,7 +243,6 @@
             </e>
           </e>
           <e p="main.ts" t="Include" />
-          <e p="Models" t="Include" />
           <e p="plugins" t="Include">
             <e p="axios.js" t="Include" />
             <e p="vuetify.ts" t="Include" />
@@ -296,9 +294,6 @@
         <e p="20191020113434_InitialCreate.cs" t="Include" />
         <e p="20191020113434_InitialCreate.Designer.cs" t="Include" />
         <e p="ApplicationContextModelSnapshot.cs" t="Include" />
-      </e>
-      <e p="Models" t="Include">
-        <e p="WeatherForecast.cs" t="Include" />
       </e>
       <e p="obj" t="ExcludeRecursive">
         <e p="Debug" t="Include">
