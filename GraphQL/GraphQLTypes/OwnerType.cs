@@ -11,9 +11,9 @@ namespace AspNetCoreVueStarter.GraphQL.GraphQLTypes
     {
         public OwnerType(IAccountRepository repository, IDataLoaderContextAccessor dataLoader)
         {
-            Field(x => x.Id, type: typeof(IdGraphType)).Description("Id property from the owner object.");
-            Field(x => x.Name).Description("Name property from the owner object.");
-            Field(x => x.Address).Description("Address property from the owner object.");
+            Field(o => o.Id, type: typeof(IdGraphType)).Description("Id property from the owner object.");
+            Field(o => o.Name).Description("Name property from the owner object.");
+            Field(o => o.Address).Description("Address property from the owner object.");
             Field<ListGraphType<AccountType>>("accounts",
                 resolve: context =>
                 {

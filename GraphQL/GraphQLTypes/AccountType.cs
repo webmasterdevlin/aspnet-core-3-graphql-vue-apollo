@@ -7,9 +7,9 @@ namespace AspNetCoreVueStarter.GraphQL.GraphQLTypes
     {
         public AccountType()
         {
-            Field(x => x.Id, type: typeof(IdGraphType)).Description("Id property from the account object.");
-            Field(x => x.Description).Description("Description property from the account object.");
-            Field(x => x.OwnerId, type: typeof(IdGraphType)).Description("OwnerId property from the account object.");
+            Field(a => a.Id, type: typeof(IdGraphType)).Description("Id property from the account object.");
+            Field(a => a.Description).Description("Description property from the account object.");
+            Field(a => a.OwnerId, type: typeof(IdGraphType)).Description("OwnerId property from the account object.");
             Field<AccountTypeEnumType>("Type", "Enumeration for the account type object");
         }
     }

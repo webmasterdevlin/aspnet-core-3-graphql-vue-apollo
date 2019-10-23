@@ -15,7 +15,7 @@ namespace AspNetCoreVueStarter.Entities.Context
 
         protected override void OnModelCreating(ModelBuilder modelBuilder)
         {
-            Guid[] ids = new Guid[] { Guid.NewGuid(), Guid.NewGuid() };
+            Guid[] ids = new[] { Guid.NewGuid(), Guid.NewGuid() };
 
             modelBuilder.ApplyConfiguration(new OwnerContextConfiguration(ids));
             modelBuilder.ApplyConfiguration(new AccountContextConfiguration(ids));
